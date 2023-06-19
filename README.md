@@ -1,6 +1,6 @@
-# MinMaxStack
+# min-max-stack
 
-MinMaxStack is a Go library that provides a stack implementation with real-time tracking of the minimum and maximum values. It offers an efficient and convenient way to keep track of the minimum and maximum elements as new values are pushed or popped from the stack.
+min-max-stack is a Go library that provides a stack implementation with real-time tracking of the minimum and maximum values. It offers an efficient and convenient way to keep track of the minimum and maximum elements as new values are pushed or popped from the stack.
 
 ## Features
 
