@@ -1,4 +1,4 @@
-package stack
+package minmaxstack
 
 // Stat holds the minimum and maximum values.
 type Stat struct {
