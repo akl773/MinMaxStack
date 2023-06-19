@@ -21,9 +21,10 @@ func NewMinMaxStack(val int) *MinMaxStack {
 }
 
 // Push adds a value to the stack.
-func (m *MinMaxStack) Push(val int) {
+func (m *MinMaxStack) Push(val int) *MinMaxStack {
 	m.values = append(m.values, val)
 	m.updateStat()
+	return m
 }
 
 // Pop removes the topmost value from the stack.
